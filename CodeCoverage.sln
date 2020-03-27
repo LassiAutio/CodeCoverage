@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCoverage", "CodeCoverage\CodeCoverage.csproj", "{79FD0ECD-C44A-4BD2-A363-AC55AF625DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoverageTests", "CodeCoverageTests\CodeCoverageTests.csproj", "{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79FD0ECD-C44A-4BD2-A363-AC55AF625DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FD0ECD-C44A-4BD2-A363-AC55AF625DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FD0ECD-C44A-4BD2-A363-AC55AF625DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FD0ECD-C44A-4BD2-A363-AC55AF625DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C407BF3D-AB33-4763-AAB2-E9D51435C858}
+	EndGlobalSection
+EndGlobal
