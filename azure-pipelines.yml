@@ -15,3 +15,5 @@ steps:
   inputs:
     command: 'test'
     projects: '**/*Tests.csproj'
+    arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)/MyCoverage/'
+    publishTestResults: true
