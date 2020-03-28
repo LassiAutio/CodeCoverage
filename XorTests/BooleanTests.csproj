@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeCoverage\CodeCoverage.csproj" />
+    <ProjectReference Include="..\BooleanOperations\Boolean.csproj" />
   </ItemGroup>
 
 </Project>

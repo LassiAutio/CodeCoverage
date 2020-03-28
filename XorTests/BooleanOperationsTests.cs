@@ -1,15 +1,15 @@
-using CodeCoverage;
+using Boolean;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace XorTests
 {
     [TestClass]
-    public class XorUnitTests
+    public class BooleanOperationsTests
     {
         [TestMethod]
         public void FalseWhenBothAreTrue()
         {
-            Assert.IsFalse(MySimpleMethods.Xor(true, true));
+            Assert.IsFalse(BooleanOperations.Xor(true, true));
         }
     }
 }

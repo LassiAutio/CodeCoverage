@@ -6,13 +6,5 @@
         {
             return a + b;
         }
-
-        public static bool Xor(bool a, bool b)
-        {
-            if (a == b)
-                return false;
-            else
-                return true;
-        }
     }
 }
