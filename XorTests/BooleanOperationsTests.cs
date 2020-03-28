@@ -11,5 +11,11 @@ namespace XorTests
         {
             Assert.IsFalse(BooleanOperations.Xor(true, true));
         }
+
+        [TestMethod]
+        public void TrueWhenNotSame()
+        {
+            Assert.IsTrue(BooleanOperations.Xor(true, false));
+        }
     }
 }

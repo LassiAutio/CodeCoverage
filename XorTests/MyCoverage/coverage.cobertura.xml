@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.30760000000000004" branch-rate="0.25" version="1.9" timestamp="1585428876" lines-covered="4" lines-valid="13" branches-covered="1" branches-valid="4">
+<coverage line-rate="0.3846" branch-rate="0.5" version="1.9" timestamp="1585429284" lines-covered="5" lines-valid="13" branches-covered="2" branches-valid="4">
   <sources>
     <source>D:\ohjelmointi\CodeCoverage\</source>
   </sources>
   <packages>
-    <package name="Boolean" line-rate="0.8" branch-rate="0.5" complexity="2">
+    <package name="Boolean" line-rate="1" branch-rate="1" complexity="2">
       <classes>
-        <class name="Boolean.BooleanOperations" filename="BooleanOperations\BooleanOperations.cs" line-rate="0.8" branch-rate="0.5" complexity="2">
+        <class name="Boolean.BooleanOperations" filename="BooleanOperations\BooleanOperations.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="Xor" signature="(System.Boolean,System.Boolean)" line-rate="0.8" branch-rate="0.5">
+            <method name="Xor" signature="(System.Boolean,System.Boolean)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="6" hits="1" branch="False" />
-                <line number="7" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="6" hits="2" branch="False" />
+                <line number="7" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="7" type="jump" coverage="50%" />
+                    <condition number="7" type="jump" coverage="100%" />
                   </conditions>
                 </line>
                 <line number="8" hits="1" branch="False" />
-                <line number="10" hits="0" branch="False" />
-                <line number="11" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="6" hits="1" branch="False" />
-            <line number="7" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="6" hits="2" branch="False" />
+            <line number="7" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="7" type="jump" coverage="50%" />
+                <condition number="7" type="jump" coverage="100%" />
               </conditions>
             </line>
             <line number="8" hits="1" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="2" branch="False" />
           </lines>
         </class>
       </classes>
