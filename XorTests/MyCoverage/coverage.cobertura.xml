@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.5" branch-rate="0.5" version="1.9" timestamp="1585426388" lines-covered="4" lines-valid="8" branches-covered="1" branches-valid="2">
+  <sources>
+    <source>D:\</source>
+  </sources>
+  <packages>
+    <package name="CodeCoverage" line-rate="0.5" branch-rate="0.5" complexity="3">
+      <classes>
+        <class name="CodeCoverage.MySimpleMethods" filename="ohjelmointi\CodeCoverage\CodeCoverage\MySimpleMethods.cs" line-rate="0.5" branch-rate="0.5" complexity="3">
+          <methods>
+            <method name="Sum" signature="(System.Int32,System.Int32)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+                <line number="7" hits="0" branch="False" />
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Xor" signature="(System.Boolean,System.Boolean)" line-rate="0.8" branch-rate="0.5">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="13" hits="1" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
