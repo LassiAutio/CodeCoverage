@@ -7,6 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMath", "MyMath\MyMath.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMathTests", "MyMathTests\MyMathTests.csproj", "{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AFDF0FC-BE29-419C-8D56-9AFD164114AC}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBoolean", "MyBoolean\MyBoolean.csproj", "{93BA7996-156E-4B2F-941C-2C8A3E4D3089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBooleanTests", "MyBooleanTests\MyBooleanTests.csproj", "{B75C511F-2E9E-43E6-9E6C-33D2B8853DAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,14 @@ Global
 		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E538D680-8CE4-47B8-A6FE-3F0877BF4CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BA7996-156E-4B2F-941C-2C8A3E4D3089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BA7996-156E-4B2F-941C-2C8A3E4D3089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BA7996-156E-4B2F-941C-2C8A3E4D3089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BA7996-156E-4B2F-941C-2C8A3E4D3089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75C511F-2E9E-43E6-9E6C-33D2B8853DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75C511F-2E9E-43E6-9E6C-33D2B8853DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75C511F-2E9E-43E6-9E6C-33D2B8853DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75C511F-2E9E-43E6-9E6C-33D2B8853DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
