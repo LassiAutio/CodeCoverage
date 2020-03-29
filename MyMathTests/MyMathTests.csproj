@@ -16,8 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BooleanOperations\Boolean.csproj" />
-    <ProjectReference Include="..\CodeCoverage\CodeCoverage.csproj" />
+    <ProjectReference Include="..\MyMath\MyMath.csproj" />
   </ItemGroup>
 
 </Project>
