@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.8" branch-rate="0.5" version="1.9" timestamp="1585513076" lines-covered="4" lines-valid="5" branches-covered="1" branches-valid="2">
+  <sources>
+    <source>D:\</source>
+  </sources>
+  <packages>
+    <package name="MyBoolean" line-rate="0.8" branch-rate="0.5" complexity="2">
+      <classes>
+        <class name="MyBoolean.MyBooleanOperations" filename="ohjelmointi\CodeCoverage\MyBoolean\MyBooleanOperations.cs" line-rate="0.8" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="Xor" signature="(System.Boolean,System.Boolean)" line-rate="0.8" branch-rate="0.5">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="1" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="8" hits="1" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
